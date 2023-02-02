@@ -3,6 +3,10 @@ body {
   background-color: #f5f7fa;
 }
 
+h3 {
+  margin: 0;
+}
+
 /* main styles */
 .main {
   display: flex;
@@ -14,7 +18,7 @@ body {
 .main-content {
   background-color: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 60px 90px;
+  padding: 40px 90px 60px 90px;
 }
 
 /* about styles  */
@@ -119,12 +123,7 @@ body {
 /* work styles */
 
 .work {
-  padding-bottom: 45px;
-  /* padding: 100px 50px 20px 40px;
-
-    padding: 50px;
-
-    padding: 50px 100px; */
+  padding-bottom: 40px;
 }
 
 .work-position {
@@ -175,6 +174,9 @@ body {
   list-style-position: inside;
 }
 /* education styles*/
+.education {
+  margin-bottom: 50px;
+}
 .education-text {
   font-style: normal;
   font-weight: 700;
@@ -196,9 +198,13 @@ body {
 .period-education {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 15px;
   color: #a8a8a8;
+}
+
+.about-me {
+  margin-bottom: 100px;
 }
 
 /* side bar styles*/
@@ -256,7 +262,9 @@ img {
   line-height: 24px;
   color: #ffffff;
 }
-
+.tech-skills {
+  margin-bottom: 40px;
+}
 .tech-skills-list {
   color: #ffffff;
   padding: 0;
